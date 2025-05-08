@@ -1,5 +1,5 @@
-from src.models.settings.base import Base
 from sqlalchemy import Column, String, Integer
+from src.models.settings.base import Base
 
 class Events(Base):
     __tablename__ = "events"
