@@ -23,7 +23,7 @@ class EventHandler:
 
         if not event:
             raise Exception("Evento não encontrado!")
-        
+
         event_attendees_count = self.__events_repository.count_event_attendees(event_id)
 
         return HttpResponse(
